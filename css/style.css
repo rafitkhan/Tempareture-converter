@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    color:#fff;
+    background:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 20px ),    repeating-linear-gradient( #ffd117, #e17d35 );
+}
+.box{
+    border: 2px solid rgb(249, 253, 3);
+    padding: 25px 55px 25px 55px;
+    background: linear-gradient(135deg , rgb(255, 188, 63), rgb(253, 253, 104));
+  
+
+}
+input{
+    width: 250px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+}
+.celInput{
+    margin-left: 25px;
+}
+img{
+    width: 75px;
+    height: 60px;
+    opacity: 0.9;
+}
+
+
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.celcius{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.farenheit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 20px;
+}
+.conButton{
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: orangered;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(240, 135, 96) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+.conButton:hover {
+    box-shadow: rgb(240, 135, 96) 0px 7px 0px 0px;
+}
+  
+.conButton:active {
+    background-color: orangered;
+    box-shadow: rgb(240, 135, 96) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}
+  
